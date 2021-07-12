@@ -1,0 +1,181 @@
+html {
+
+    max-width: ;
+}
+body {
+background-color:rgb(224, 224, 224);
+margin: auto;
+padding: 10px;
+
+ 
+
+
+}
+h1 {
+color: white;
+background-color: #FF7F50;
+padding: 100px;
+margin: 1px;
+text-align: center;
+background:
+url(https://c.wallhere.com/photos/ae/d6/2048x1365_px_animals_Clownfish_fish_Sea_Anemones-527834.jpg!d)
+no-repeat #a34b21 center;
+background-blend-mode: multiply;
+padding: 10vh 1rem;
+margin: -1rem -1rem 1rem;
+}
+
+.header-text {
+    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    margin: 20px;
+}
+h1 { 
+    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px; 
+    line-height: 26.4px;
+    text-shadow: 8 3 grey;
+ }
+
+ .clownp1 {
+     font-size: 40px;
+     text-align: center;
+     font-family: 'DotGothic16', sans-serif;
+     font-family: 'Oswald', sans-serif;
+  
+ }
+
+ .nav {
+     padding: 20px;
+     margin:  10px auto;
+     background-color: rgb(201, 125, 39);
+     text-align: center;
+
+
+ }
+ h2 {
+     font-size: 40px;
+     text-align: center;
+     font-weight: 800;
+
+ }
+.content {
+    font-size: 20px;
+    text-align: justify;
+    word-spacing: 1.0;
+    line-height: 25px;
+    padding: 10px;
+    
+}
+ .photo-text {
+     text-align: left;
+     font-size: 20px;
+    
+   
+    
+    
+ }
+
+ .container {
+     margin: 20px auto;
+     width: 75%;
+     padding: 10px;
+     border: 1px solid black;
+     color: white;
+     border-radius: 5px;
+     
+
+    
+ } 
+ .color-brown {
+    background-color: rgb(92, 53, 16);
+    box-shadow: 3px 5px 1px 2px rgb(230, 149, 0);
+ }
+.color-green {
+    background-color: rgb(78, 78, 78);
+    box-shadow: 3px 5px 1px 2px rgb(119, 172, 22);
+
+}
+
+ 
+
+ .flex-map {
+     display: flex;
+
+
+ }
+ .map {
+    float: left;
+    width: 300px;
+    height: 260px;
+    
+    margin: 0px 20px 10px 20px;
+    border: 7px solid rgb(221, 221, 221);
+    border-radius: 40%;
+
+}
+ul li {
+    float: top;
+    text-align: center;
+    display: inline;
+    background-color: rgb(7, 7, 7);
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid rgb(29, 29, 27);
+    border-radius: 20px 20px;
+    list-style:initial;
+
+
+
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+a {
+    color:lavenderblush;
+    font-size: 25px;
+    text-decoration: none;
+    
+    
+}
+a:hover li{
+background-color: hotpink;
+
+}
+a:hover  {
+color: lawngreen;
+}
+ #headclown {
+    border: 10px solid #fa9a0b;
+    max-height: 60rem;
+    margin: 20px auto;
+    width: 40rem;
+    display: block;
+    border-radius: 15px;
+ }
+
+main {
+max-width: 1300px;
+ 
+}
+
+
+
+
+@media only screen and (max-width: 500px) {
+    #headclown {
+    border: 25px solid red;
+    }
+}
+
+@media screen and (max-width: 600px) {   .half-width {     margin: auto;     width: 50%;   } }
+
+@media (min-width: 1200px) {
+    .container {    
+         max-width: 1140px; 
+        }
+    }
