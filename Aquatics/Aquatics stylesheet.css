@@ -1,0 +1,480 @@
+html, body {
+    overflow-x: hidden;
+
+}
+
+
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+}
+/* Text Styling */
+
+.center {
+    text-align: center;
+}
+
+
+
+/* Nav and Header */
+
+#header-logo-section {
+    width: 100%;
+    height: 50%;
+    margin-bottom: -2%;
+}
+
+#logo-photo-size {
+    height: 30%;
+    width: 25%;
+    margin-left: 38%;
+    margin-bottom: -5px;
+    margin-right: 50%;
+}
+
+.logo-text {
+    margin-top: -10px;
+}
+
+.logo-text-padding {
+    padding: 0%;
+    margin-bottom: 4%;
+    margin-top: -3%;
+}
+
+
+#nav-bar {
+    z-index: 100;
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+    justify-content: space-evenly;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    
+
+}
+#navbar {
+    z-index: 1000;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.fancy-animate {
+    transition: color 0.5s, background-color 0.5s, box-shadow 0.5s, font-size 0.5s, filter 0.5s, width 0.5s, height 0.5s, max-width 0.5s, margin 0.5s;
+    -webkit-transition: color 0.5s, background-color 0.5s, box-shadow 0.5s, font-size 0.5s, filter 0.5s, width 0.5s, height 0.5s, max-width 0.5s, margin 0.5s;
+    -o-transition: color 0.5s, background-color 0.5s, box-shadow 0.5s, font-size 0.5s, filter 0.5s, width 0.5s, height 0.5s, max-width 0.5s, margin 0.5s;
+    -moz-transition: color 0.5s, background-color 0.5s, box-shadow 0.5s, font-size 0.5s, filter 0.5s, width 0.5s, height 0.5s, max-width 0.5s, margin 0.5s;
+}
+
+a:hover {
+    color: red;
+}
+
+
+
+
+
+/* Nav Bar Scroll */
+
+#navbar.sticky {
+    position: fixed;
+    top: 0;
+    max-width: 100%;
+    margin: 0;
+    z-index: 1000;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, .1);
+    width: 100%;
+}
+
+.sticky+*   {
+    padding-top: 60px;
+}
+
+
+
+
+/* Main Photo $ Content */
+
+.main-photo-size {
+    width: 100%;
+    height: 741px;
+    background-image: url("https://besthqwallpapers.com/Uploads/18-11-2017/29306/underwater-world-coral-reef-fish-coral-underwater-landscape.jpg");
+    background-repeat: round;
+    margin-bottom: 10px;
+}
+
+#photo-box {
+    width: 100%;
+}
+
+#quote-box {
+    width: 31%;
+    height: 241px;
+    background-color: firebrick;
+    margin-top: -537px;
+    margin-bottom: 303px;
+    margin-left: 106px;
+    opacity: 0.7;
+    color: ivory;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+body {
+    height: 100%;
+}
+
+/* Grid Services */
+
+.grid-contanier {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+.items {
+    padding: 10px;
+    border: 2px solid black;
+    height: 320px;
+}
+
+.img-one {
+    background-image: url(https://seatechh2o.com/wp-content/uploads/2019/12/Seatech-H2O-Cleaning-a-Fish-Tank-Dos-and-Donts-_308294273-1200x909.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-two {
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.BoBRxsVwG2ki0lKyk-VNyAHaE8&pid=Api);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-three {
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.5BRaFKm_8-0PfR0XFakotgHaFj&pid=Api);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-four {
+     background-image: url(https://tse3.mm.bing.net/th?id=OIP.FrwUQ_PaA_ACI2pm1_nmigAAAA&pid=Api);
+     background-position: center;
+     background-size: cover;
+}
+
+.items-text {
+    color: black;
+    font-size: 28px;
+    background-color: white;
+    opacity: 0.8;
+}
+
+
+
+/*Hover Box */
+
+#crew {
+    margin-top: 105px;
+    margin-bottom: 40px;
+}
+
+#service {
+    margin-bottom: 67px;
+    margin-top: 450px;
+    
+}
+
+
+
+.sub-head-styling {
+    background-color:firebrick;
+    width: 274px;
+    margin: auto;
+    color: white;
+    min-width: 30%;
+}
+
+
+/* Meet The Crew Section */
+
+.crew-styling {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child-flex {
+    display: flex;
+}
+
+.flex-items {
+    margin: 0 5px;
+    padding: 0 5px;
+    font-size: 30px;
+    background: #ccc;
+    color: #000;
+}
+
+
+#crew {
+    margin-top: 105px;
+    margin-bottom: 40px;
+}
+
+#service {
+    margin-bottom: 67px;
+    margin-top: 450px;
+    
+}
+
+.img-crew {
+    height: inherit;
+    width: inherit;
+}
+.crew-img-flex {
+    width: 100%;
+    height: 250px;
+    width: 206px;
+    background-size: cover;
+    background-repeat: round;
+    border: 6px solid firebrick;
+    margin: 48px;
+}
+
+.crew-styling-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 49px;
+    margin-right: -1px;
+    text-align: center;
+    margin-top: -37px;
+}
+
+.crew-text-flex {
+    margin: 48px;
+    margin-top: 42px;
+    margin-bottom: -22px;
+    flex-wrap: wrap;
+    width: 100%
+}
+/* Footer */
+
+footer {
+    display: flex;
+    list-style-type: none;
+    padding: 30px;
+    margin: 0px;
+    justify-content: space-evenly;
+    font-weight: bold;
+    margin-top: 178px;
+    background-color: black;
+    color: white;
+    height: 100%;
+}
+
+.footer-styling {
+    background-color: firebrick;
+    padding: 30px 60px;
+}
+
+.questions {
+    margin-bottom: 40px;
+    border: 5px solid black;
+    padding: 10px;
+}
+
+.gg-mail,
+.gg-mail::after {
+    display: block;
+    box-sizing: border-box;
+    height: 14px;
+    border: 2px solid
+}
+.gg-mail {
+    overflow: hidden;
+    transform: scale(var(--ggs,1));
+    position: relative;
+    width: 18px;
+    border-radius: 2px
+}
+.gg-mail::after {
+    content: "";
+    position: absolute;
+    border-radius: 3px;
+    width: 14px;
+    transform: rotate(-45deg);
+    bottom: 3px;
+    left: 0
+}
+
+.gg-voicemail-r {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 21px;
+    height: 14px;
+    background:
+        linear-gradient(
+            to left,currentColor 10px,transparent 0)
+            no-repeat 5px 6px/7px 2px;
+    border-radius: 3px;
+    border: 2px solid
+}
+.gg-voicemail-r::after,
+.gg-voicemail-r::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border: 2px solid;
+    border-radius: 10px;
+    top: 2px
+}
+.gg-voicemail-r::before {
+    left: 2px
+}
+.gg-voicemail-r::after {
+    right: 2px
+}
+
+
+.gg-home {
+    background:
+        linear-gradient(to left,
+            currentColor 5px,transparent 0)
+            no-repeat 0 bottom/4px 2px,
+        linear-gradient(to left,
+            currentColor 5px,transparent 0)
+            no-repeat right bottom/4px 2px;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 18px;
+    height: 14px;
+    border: 2px solid;
+    border-top: 0;
+    border-bottom: 0;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-bottom: -2px
+  }
+  .gg-home::after,
+  .gg-home::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+  }
+  .gg-home::before {
+    border-top: 2px solid;
+    border-left: 2px solid;
+    border-top-left-radius: 4px;
+    transform: rotate(45deg);
+    top: -5px;
+    border-radius: 3px;
+    width: 14px;
+    height: 14px;
+    left: 0
+  }
+  .gg-home::after {
+    width: 8px;
+    height: 10px;
+    border: 2px solid;
+    border-radius: 100px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 0;
+    left: 3px;
+    bottom: 0
+  }
+
+  /* Media Quries */
+
+  /* Tablet & Mobile */
+  @media screen and (max-width: 730px) { 
+      .grid-contanier {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+      }
+  }
+
+  @media screen and (max-width: 866px) {
+      .child-flex {
+          display: block;
+      }
+
+      .crew-img-flex {
+          margin: 120px;
+      }
+
+
+      .main-photo-size {
+          width: 100%;
+          height: 390px;
+      }
+
+      #quote-box {
+        height: 125px;
+        margin-top: -260px;
+        margin-bottom: -187px;
+        margin-left: 10%;
+        margin-right: auto;
+        opacity: 0.7;
+        font-size: 0.7rem;
+        padding: 4px;
+        padding-top: 1px;
+        padding-bottom: 14px;
+}
+#logo-photo-size {
+    width: 50%;
+    margin-left: 26%;
+}
+  }
+
+  @media screen and (min-width: 866px) and (max-width: 1230px) { /* Fixing quote box at tablet size */
+      #quote-box {
+          font-size: 1.3rem;
+      }
+  }
+
+  @media screen and (max-width: 466px) {
+      #quote-box {
+          width: 78%;
+          height: 69px;
+      }
+
+      a {
+          font-size: 18px;
+      }
+  }
+
+  @media screen and (max-width: 650px) {
+      .logo-text {
+          margin-top: 1%;
+          font-size: 18px;
+          margin-bottom: 1%;
+        
+      }
+  }

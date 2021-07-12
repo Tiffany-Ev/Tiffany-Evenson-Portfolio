@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aquatics Mantinance</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Aquatics stylesheet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">  
+    <link href='https://css.gg/mail.css' rel='stylesheet'>
+    <link href='https://css.gg/voicemail-r.css' rel='stylesheet'>
+    <link href='https://css.gg/home.css' rel='stylesheet'>
+</head>
+<header>
+
+        <div id="navbar" class="fancy-animate">
+            <nav class="top-bar-styling">
+                <ul id="nav-bar">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+           </nav>
+     </div>
+
+     <div id="header-logo-section" class="top-bar-styling">
+        <img src="https://static.vecteezy.com/system/resources/previews/000/595/032/original/fish-koi-logo-and-symbol-animal-vector.jpg" alt="Logo for company with two koi fish" id="logo-photo-size">
+        <div class="logo-text-padding">
+        <h1 class="center logo-text">Aquatics</h1>
+        <h2 class="center logo-text">Keeping It In Balance</h2>
+        </div>
+    </div>
+</header>
+<body>
+    <script>
+
+        var header = document.getElementById("navbar");
+            var sticky = header.offsetTop;
+            setTimeout(function () {
+                window.onscroll = function (e) {
+                    if (window.pageYOffset > sticky) { header.classList.add("sticky"); }
+                    else {
+                        header.classList.remove("sticky");
+                    }
+                }
+            },
+                500);
+
+ /*
+        // When the user scrolls the page, execute myFunction
+        window.onscroll = function() {myFunction()};
+
+        // Get the navbar
+        var navbar = document.getElementById("navbar");
+
+        // Get the offset position of the navbar
+        var sticky = navbar.offsetTop;
+
+        // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+        }
+
+        console.log(Hello);
+*/
+    </script>
+<main>
+    <div id="photo-box">
+        <div class="main-photo-size">
+
+        </div>
+        <div id="quote-box" class="center">
+            <h2>Let us help you balance your pocket of nature while you enjoy its wounders</h2>
+       </div>
+    </div>
+    <h1 class="center sub-head-styling" id="service">Services</h1>
+    <div class="grid-contanier">
+            <div title=" We offer full service maintance" class="items img-one center"><h3 class="items-text">Aquarium Maintenance</h3></div>
+            <div class="items img-two center"><h3 class="items-text">Pond Maintenance</h3></div>
+            <div class="items img-three center"><h3 class="items-text">Custom Tanks</h3></div>
+            <div class="items img-four center"><h3 class="items-text">Commercial Aquariums</h3></div>
+    </div>
+         <h2 class="center sub-head-styling" id="crew">Meet The Crew</h2>
+    <div class="crew-styling">
+        <div class="child-flex">
+            <div class="crew-img-flex">
+                <img class="img-crew" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80">
+                <h4 class="center">Jerry Smith</h4>
+                <p class="center">Founder of Aquatics and CEO</p>
+            </div>
+            <div class="crew-img-flex">
+                <img class="img-crew" src="https://media.istockphoto.com/photos/passport-picture-of-a-smiling-turkish-businesswoman-picture-id856599656?k=6&m=856599656&s=612x612&w=0&h=4Nwo_zZorMKSrrHb-c9DoO7JarfeuKQXXV2U6Ky6N9Q=">
+                <h4 class="center">Sandra Deloras</h4>
+                <p class="center">Customer Sercive Manager</p>
+            </div>
+
+            <div class="crew-img-flex">
+                <img  class="img-crew" src="https://media.istockphoto.com/photos/portrait-of-an-african-american-man-with-glasses-picture-id502581380?k=6&m=502581380&s=612x612&w=0&h=574qb-a-HNWkmDqG0t4S14YnroyYARd4rAngvlj-IAk=">
+                <h4 class="center">Shawn Williams</h4>
+                <p class="center">Lead Designer</p>
+            </div>
+        </div>
+    </div>
+
+</main>
+</body>
+<footer>
+    <div class="footer-styling">
+        <h4 class="center questions">Have Questions? <br> Contact Us</h4>
+        <p class="gg-mail"></p> 
+        <p>aquaticscleaning@gmail.com</p>
+        <p class="gg-voicemail-r"></p>
+        <p>407-223-1176</p>
+        <p class="gg-home"></p>
+        <p>1234 Abbey Dr, Destin Fl, 34787</p>
+    </div>
+
+</footer>
+</html>
