@@ -231,3 +231,124 @@ a {
     margin-left: 24%;
     margin-top: 99px;
 }
+
+
+
+
+/* @Media phone size */
+
+
+/* Header */
+
+
+
+@media screen and (min-width:  550px) and (max-width: 700px) {
+
+    #nav-style {
+        width: 100%;
+}
+
+
+.title {
+    margin-left: 29%;
+}
+
+#button {
+    margin-left: 40%;
+}
+
+
+header {
+    width: 134%;
+}
+
+/* main section */ 
+
+
+/* Art Samples Section */
+    .work-title {
+        margin-left: 44%;
+    }
+
+
+    .collumn-container {
+        display: block;
+        grid-template-rows: repeat(3, 1fr);
+        height: 100%;
+        margin: 0 20%;
+    }
+
+
+    .grid-item-one {
+        height: 181px;
+        width: 351px;
+        margin-left: 82px;
+    }
+
+    .grid-item-two {
+        height: 433px;
+        margin: 57px;
+    }
+
+    .grid-item-three {
+        margin-bottom: 47px;
+    }
+
+
+    /* Founders Section */
+
+
+    .founder-text-header {
+        margin-left: 44%;
+    }
+   
+
+    .founder-img {
+        margin: 25px;
+        padding-top: 52px;
+        width: 106%;
+        margin-left: -3%;
+    }
+
+     .founder-styling {
+         margin-left: 162px;
+         padding: 100px;
+        }
+
+
+
+        #susan-box {
+            font-size: 16px;
+        }
+
+        /* Meeting Section */
+
+        #meeting-title {
+            width: 132%;
+        }
+
+
+        .meeting-img-one {
+            width: 95%;
+            margin-left: 59px;
+        }
+
+        .meeting-img-two {
+            width: 96%;
+            margin-left: 58px;
+        }
+
+
+        .meeting-img-three {
+             width: 96%; 
+            margin-left: 57px;
+        }
+        
+        /* Footer Styling */
+        #footer-styling {
+            width: 100%;
+        }
+
+
+
+}
