@@ -11,6 +11,7 @@ header {
     background-attachment: fixed;
     background-image: url(https://cdn.suwalls.com/wallpapers/artistic/paint-strokes-28707-1920x1080.jpg);
     clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
+    width: 100%;
 }
 
 
@@ -35,9 +36,10 @@ html {
     padding: 20px;
     background-color: green;
     width: 305px;
-    margin-left: 44%;
     border-radius: 51px;
     color: white;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* Header */
 
@@ -96,48 +98,52 @@ a {
 
 .collumn-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    height: 100%;
-    margin: 0 20%;
-
-}
-.grid-item-one {
-    border: 41px solid black;
-    grid-column: 1 / span 2;
-    grid-row: 1 / 1;
-    max-width: 100%;
-    height: auto;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: repeat(5, 1fr);
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
     
 
 }
+.grid-item-one {
+    border: 20px solid black;
+    grid-column: 1;
+    grid-row: 1 / 1;
+    max-width: 83%;
+    height: auto;
+}
 
 .grid-text-one {
-    grid-column: 5 / span 6;
+    grid-column: 2/ span 3;
+    grid-row: 1
 }
 
 
 .grid-item-two {
-    grid-row: 2 / 4;
-    height: auto;
+    grid-row: 2 / span 4;
+    height: 40%;
     grid-column: 2/ span 3;
-    border: 41px solid #002096e3;
+    border: 12px solid #002096e3;
 }
 
 .grid-text-two {
-    grid-column: 1 / 4;
+    grid-column: 1;
+    grid-row: 4;
 }
 .grid-item-three {
     grid-row: 4 / span 5;
-    grid-column: 4 / span 3;
-    border: 41px solid gold;
+    grid-column: 2 / 3;
+    border: 15px solid gold;
+    object-fit: cover;
+    max-width: 150%;
 }
 
 
 .grid-item-four {
     grid-row: 3 / 3;
     grid-column: 1 / 2;
-    border: 41px solid darkolivegreen;
+    border: 27px solid darkolivegreen;
 }
 
 /* Founders Section */
@@ -165,24 +171,20 @@ a {
 
 #susan-box {
     text-align: center;
-    margin-right: 136px;
-    margin-top: 139px;
     font-style: italic;
     font-size: 26px;
     color: white;
+    padding-top: 90px;
+    padding-left: 80px;
+    padding-right: 83px;
 }
-
 /* Meeting Styling */
 
 .meeting-box {
-    width: 1201px;
-    background-color: white;
-    margin-left: 20%;
-
+    margin-left: 10%;
+    margin-right: 10%;
 }
-
 #meeting-title {
-
     margin-bottom: 90px;
     background-color: green;
     border-radius: 15px;
@@ -230,4 +232,182 @@ a {
     width: 50%;
     margin-left: 24%;
     margin-top: 99px;
+}
+
+
+
+
+/* @Media phone size */
+
+
+/* Header */
+
+
+
+@media screen and (min-width:  300px) and (max-width: 990px) {
+
+    html {
+        width: 302%;
+    }
+
+    #nav-style {
+        width: 100%;
+        font-size: 40px;
+        margin-left: auto;
+    }
+
+
+.title {
+    color: white;
+    background-color: darkolivegreen;
+    padding: 30px 10px;
+    width: 50%;
+    margin-left: 26%;
+    margin-right: 50%;
+    margin-top: 86px;
+}
+
+#button {
+    padding: 8px 16px;
+    width: 184px;
+    margin-left: auto;
+    margin-top: 1%;
+    font-size: 20px;
+    margin-right: auto;
+}
+
+
+/* main section */ 
+
+
+/* Art Samples Section */
+    .work-title {
+        padding: 20px;
+        width: 305px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .collumn-container img {
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        display: block;
+    }
+    .collumn-container {
+        display: block;
+        width: 100%;
+        margin-left: auto;
+    }
+
+    .grid-text-one {
+        display: none;
+    }
+
+    .grid-text-two {
+        display: none;
+    }
+    /* Founders Section */
+
+    .founder-img img {
+        max-width: 40%;
+        height: 100%;
+    }
+    .founder-text-header {
+        padding: 36px;
+        width: 217px;
+        margin-left: auto;
+        margin-top: 117px;
+        margin-right: auto;
+    }
+   
+
+    .founder-styling {
+        margin-left: 29px;
+        padding: 100px;
+        }
+
+
+
+    #susan-box {
+        font-size: 14px;
+        padding-left: 217px;
+        padding-top: 122px;
+        }
+
+        /* Meeting Section */
+
+        .meeting-box {
+            width: auto;
+            margin-left: 10%;
+            display: block;
+            margin-right: 10%;
+        }
+
+
+        #meeting-title {
+            margin-bottom: 90px;
+            height: 79px;
+            padding-top: 42px;
+        }
+
+
+        
+        /* Footer Styling */
+       
+
+
+
+}
+
+
+
+@media screen and (max-width: 580px) {
+#susan-box {
+    font-size: 14px!important;
+    margin-top: 0;
+    padding-top: 5%;
+}
+}
+/* Tablet Size */
+
+@media screen and (max-width: 900px) {
+    .meeting-box {
+        width: auto;
+      
+    }
+}
+
+
+@media screen and (max-width: 1900px) {
+    #susan-box {
+        font-size: 20px;
+    }
+    .founder-img img {
+        max-width: 39%;
+        height: 100%;
+    
+    }
+
+    .founder-img {
+        margin: 0;
+        padding: 0;
+    }
+
+} 
+
+@media screen and (min-width: 990px) and (max-width: 1320px){
+    #susan-box {
+        font-size: 13px;
+        padding-top: 44px;
+    }
+}
+
+
+@media screen and (min-width: 1320px) and (max-width: 1580px) {
+    #susan-box {
+        padding-top: 32px;
+    }
 }
